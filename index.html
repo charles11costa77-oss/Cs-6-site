@@ -17,7 +17,7 @@ body { background: var(--black); color: var(--white); font-family: 'Montserrat',
 #bg { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
 
 /* NAV */
-nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; display: flex; align-items: center; justify-content: space-between; padding: 0.8rem 5vw; transition: background 0.4s; }
+nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; display: flex; align-items: center; justify-content: space-between; padding: 0.8rem 8vw 0.8rem 5vw; transition: background 0.4s; }
 nav.scrolled { background: rgba(8,9,11,0.92); backdrop-filter: blur(16px); border-bottom: 1px solid rgba(196,162,74,0.1); }
 .nav-logo { display: flex; align-items: center; }
 .nav-logo svg { display: block; filter: drop-shadow(0 0 6px rgba(196,162,74,0.4)); }
@@ -282,7 +282,7 @@ body.light-mode .brand-quote p { color: #111111; }
 body.light-mode .hero-scroll { text-align: center; justify-content: center; }
 
 
-.nav-controls { display: flex; align-items: center; gap: 0.6rem; }
+.nav-controls { display: flex; align-items: center; gap: 0.8rem; margin-right: 1rem; }
 .lang-toggle { background: none; border: 1px solid rgba(196,162,74,0.4); border-radius: 20px; cursor: pointer; padding: 4px 10px; color: var(--gold); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.1em; font-family: 'Montserrat', sans-serif; transition: all 0.3s; white-space: nowrap; }
 .lang-toggle:hover { border-color: var(--gold); background: rgba(196,162,74,0.1); }
 body.light-mode .lang-toggle { color: var(--gold); border-color: rgba(196,162,74,0.4); }
